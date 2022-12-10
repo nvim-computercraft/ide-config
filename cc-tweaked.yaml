@@ -8,6 +8,36 @@ globals:
     removed: true
   _HOST:
     property: read-only
+  _CC_DEFAULT_SETTINGS:
+    property: read-only
+  _CC_DISABLE_LUA51_FEATURES:
+    property: read-only
+  sleep:
+    property: read-only
+    args:
+      - type: number
+        required: true
+  write:
+    property: read-only
+    args:
+      - type: string
+        required: true
+  printError:
+    property: read-only
+    args:
+      - type: "..."
+        required: true
+  read:
+    property: read-only
+    args:
+      - type: string
+        required: false
+      - type: table
+        required: false
+      - type: function
+        required: false
+      - type: string
+        required: false
   colors:
     property: read-only
   colours:
