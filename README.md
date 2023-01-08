@@ -7,7 +7,18 @@ Selene is an extensible Lua linter written in Rust, and Lua Language Server is t
 You might also be interested in [StyLua](https://github.com/JohnnyMorganz/StyLua), a Lua formatter written in Rust. Its configuration is not included here because formatting configurations are typically highly opinionated.
 ## Usage
 
-Copy `cc-tweaked.yaml` and `selene.toml` to the root of your project.
+### New project
+Press the "Use this template" button in the top right of the GitHub page. You probably want to replace the README.md and LICENSE files with your own.
+
+The `Justfile` file is not strictly necessary for this configuration to work; it is merely for convinience.
+
+When cloning, make sure to pass the `--recurse-submodules` flag. (If you forgot to do that, run `git submodule sync`.)
+
+### Existing project
+
+Copy `.gitmodules`, `.luarc.json`, `cc-tweaked.yaml`, and `selene.toml` to the root of your project.
+
+Update your submodules with `git submodule sync`.
 Optionally, copy the provided `Justfile` to allow easily running Selene.
 
 ## Design decisions
