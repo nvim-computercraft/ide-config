@@ -5,6 +5,7 @@ This includes a standard library for use with [Selene](https://kampfkarren.githu
 Selene is an extensible Lua linter written in Rust, and Lua Language Server is the backend to the Lua plugin in VSCode (as well as being the de-facto language server for Lua in other editors and IDEs, such as Neovim and Emacs).
 
 You might also be interested in [StyLua](https://github.com/JohnnyMorganz/StyLua), a Lua formatter written in Rust. Its configuration is not included here because formatting configurations are typically highly opinionated.
+
 ## Usage
 
 ### New project
@@ -19,9 +20,15 @@ When cloning, make sure to pass the `--recurse-submodules` flag. (If you forgot 
 Copy `.gitmodules`, `.luarc.json`, `cc-tweaked.yaml`, and `selene.toml` to the root of your project.
 
 Update your submodules with `git submodule sync`.
+
 Optionally, copy the provided `Justfile` to allow easily running Selene.
 
 ## Design decisions
 
 Any globals defined in `cc-tweaked.yaml` are set as read-only to prevent accidents.
 You probably don't want this if you're writing an operating system that replaces these globals.
+
+## Credits
+- [@carsakiller](https://github.com/carsakiller) for CC: Tweaked's Lua Language Server library.
+- [@MasonGulu](https://github.com/MasonGulu) and [@Autist69420](https://github.com/Autist69420) for becoming early users of this configuration set.
+- You, because you are awesome for reading that entire document.
