@@ -6,6 +6,15 @@ Selene is an extensible Lua linter written in Rust, and Lua Language Server is t
 
 You might also be interested in [StyLua](https://github.com/JohnnyMorganz/StyLua), a Lua formatter written in Rust. Its configuration is not included here because formatting configurations are typically highly opinionated.
 
+## Screenshots
+
+<details><summary>Neovim</summary>
+<img src="doc/assets/neovim-dracula-lualine.png" alt="Neovim with the Dracula theme and the Lualine plugin.">
+Neovim with the Dracula theme and Lualine plugin.
+</details>
+
+*Do you have a screenshot of your editor with this configuration? Open an issue to get it added here!*
+
 ## Usage
 
 ### New project
