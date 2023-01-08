@@ -1,8 +1,8 @@
-# Selene configuration for CC: Tweaked
+# IDE configuration for CC: Tweaked
 
-This is a standard library for use with [Selene](https://kampfkarren.github.io/selene/selene.html) on [CC: Tweaked](https://computercraft.cc).
+This includes a standard library for use with [Selene](https://kampfkarren.github.io/selene/selene.html) on [CC: Tweaked](https://computercraft.cc), as well as globals definitions for the Lua Language Server.
 
-Selene is an extensible Lua linter written in Rust.
+Selene is an extensible Lua linter written in Rust, and Lua Language Server is the backend to the Lua plugin in VSCode (as well as being the de-facto language server for Lua in other editors and IDEs, such as Neovim and Emacs).
 
 ## Usage
 
