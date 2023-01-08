@@ -4,6 +4,7 @@ This includes a standard library for use with [Selene](https://kampfkarren.githu
 
 Selene is an extensible Lua linter written in Rust, and Lua Language Server is the backend to the Lua plugin in VSCode (as well as being the de-facto language server for Lua in other editors and IDEs, such as Neovim and Emacs).
 
+You might also be interested in [StyLua](https://github.com/JohnnyMorganz/StyLua), a Lua formatter written in Rust. Its configuration is not included here because formatting configurations are typically highly opinionated.
 ## Usage
 
 Copy `cc-tweaked.yaml` and `selene.toml` to the root of your project.
