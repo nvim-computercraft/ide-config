@@ -1,3 +1,3 @@
 [submodule ".lua-ls-definitions/meta/3rd/cc-tweaked"]
 	path = .lua-ls-definitions/meta/3rd/cc-tweaked
-	url = https://gitlab.com/carsakiller/cc-tweaked-documentation
+	url = https://github.com/nvim-computercraft/lua-ls-cc-tweaked
