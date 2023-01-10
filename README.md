@@ -32,6 +32,14 @@ Update your submodules with `git submodule sync`.
 
 Optionally, copy the provided `Justfile` to allow easily running Selene.
 
+## Adding additional libraries
+
+You can add additional Lua LS libraries by:
+1. Adding the library's source repository as a submodule in `.lua-ls-defitions/meta/3rd/<submodule-name>`.
+2. Adding `$SUBMODULE_LOCATION` + `/library` to line 7 of `.luarc.json`'s array.
+
+See the [wiki page](https://github.com/nvim-computercraft/ide-config/wiki/Libraries) for a list of all Lua LS libraries intended for ComputerCraft.
+
 ## Design decisions
 
 Any globals defined in `cc-tweaked.yaml` are set as read-only to prevent accidents.
