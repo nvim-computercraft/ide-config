@@ -1,4 +1,7 @@
 # IDE configuration for CC: Tweaked
+> **Warning**
+>
+> This method is **deprecated** in favor of using Lua Language Server packages; please see [the primary maintainer's writeup](https://tomodachi94.github.io/blog/computercraft-neovim/) for details on how to set this up.
 
 This includes a standard library for use with [Selene](https://kampfkarren.github.io/selene/selene.html) on [CC: Tweaked](https://computercraft.cc), as well as globals definitions for the Lua Language Server.
 
